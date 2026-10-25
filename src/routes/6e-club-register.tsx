@@ -160,6 +160,7 @@ function RegisterPage() {
           { name: "Register", path: "/6e-club-register" },
         ]}
         kicker="Guide · 2026"
+        reviewed="2026-10-25"
         title="6E Club Register: Step-by-Step Account Creation Guide"
         intro="Creating a new account should not be complicated, but it helps to know what to check before you start. This guide walks through registration, common sign-up problems, and important checks before sharing your information."
         bannerSrc="/images/heroes/6e-club-register-hero.webp"
@@ -334,10 +335,11 @@ function RegisterPage() {
               disable your device’s security protections to access a registration page.
             </p>
             <Link
-              to="/6e-club-apk"
+              to="/"
+              hash="apk"
               className="inline-flex text-sm font-semibold text-gold underline-offset-2 hover:underline"
             >
-              Read the APK safety guide →
+              Browser / home-screen tips on the homepage →
             </Link>
           </div>
           <div className="overflow-hidden rounded-2xl border border-border bg-[#0a0612]">

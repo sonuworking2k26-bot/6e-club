@@ -34,6 +34,7 @@ function PrivacyPage() {
           { name: "Privacy policy", path: "/privacy-policy" },
         ]}
         kicker="Policy"
+        reviewed="2026-10-25"
         title="Privacy policy"
         intro="Last updated: 25 October 2026. This policy covers the information site at https://6e-club.org."
       />

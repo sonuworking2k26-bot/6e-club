@@ -25,6 +25,8 @@ interface PageHeroProps {
   kicker: string;
   title: ReactNode;
   intro: string;
+  /** ISO date shown as “Reviewed: YYYY-MM-DD” under the intro. */
+  reviewed?: string;
   /** Public path under /images/... */
   bannerSrc?: string;
   bannerAlt?: string;
@@ -41,6 +43,7 @@ export function PageHero({
   kicker,
   title,
   intro,
+  reviewed,
   bannerSrc,
   bannerAlt = "6E Club guide banner",
   bannerVariant = "wide",
@@ -87,6 +90,11 @@ export function PageHero({
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
           {intro}
         </p>
+        {reviewed ? (
+          <p className="mt-3 text-xs text-muted-foreground/80">
+            <time dateTime={reviewed}>Reviewed: {reviewed}</time>
+          </p>
+        ) : null}
       </div>
     </section>
   );

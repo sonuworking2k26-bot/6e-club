@@ -34,6 +34,7 @@ function ResponsiblePlayPage() {
           { name: "Responsible play", path: "/responsible-play" },
         ]}
         kicker="18+ · Play safe"
+        reviewed="2026-10-25"
         title="Responsible play for 6E Club sessions"
         intro="Even short sessions can steal time and money. Use limits before you start, ignore streak myths, and get help early if play stops feeling light."
         bannerSrc="/images/homepage/6e-club-fishing-games-banner.webp"
@@ -137,7 +138,7 @@ function ResponsiblePlayPage() {
         <p className="mt-6 text-sm leading-relaxed text-muted-foreground sm:text-base">
           This guide hub cannot provide therapy, account recovery or dispute resolution for
           third-party platforms. See{" "}
-          <Link className="text-gold underline-offset-2 hover:underline" to="/contact">
+          <Link className="text-gold underline-offset-2 hover:underline" to="/" hash="contact">
             Contact
           </Link>{" "}
           for editorial vs emergency channels.
@@ -148,24 +149,24 @@ function ResponsiblePlayPage() {
         <ul className="grid gap-3 sm:grid-cols-2">
           {[
             {
-              to: "/6e-club-game" as const,
-              label: "Game Guide",
-              desc: "How format and rooms are usually described.",
-            },
-            {
-              to: "/6e-club-apk" as const,
-              label: "APK Guide",
-              desc: "Safer access and sideload red flags.",
-            },
-            {
               to: "/faq" as const,
               label: "FAQ",
-              desc: "Short answers on login, APK and safety.",
+              desc: "Short answers on login, safety and account issues.",
             },
             {
               to: "/about" as const,
               label: "About",
               desc: "What this independent hub publishes.",
+            },
+            {
+              to: "/6e-club-login" as const,
+              label: "Login Guide",
+              desc: "Safer sign-in and account-access help.",
+            },
+            {
+              to: "/6e-club-customer-service" as const,
+              label: "Customer Service",
+              desc: "Self Service Center topics and support habits.",
             },
           ].map((item) => (
             <li key={item.to}>

@@ -22,3 +22,4 @@ User-agent: facebookexternalhit
 Allow: /
 
 Sitemap: https://6e-club.org/sitemap.xml
+Sitemap: https://6e-club.org/image-sitemap.xml

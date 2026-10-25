@@ -116,6 +116,7 @@ function InvitationPage() {
           { name: "Invitation", path: "/6e-club-invitation" },
         ]}
         kicker="Guide · 2026"
+        reviewed="2026-10-25"
         title="6E Club Invitation Code: How to Invite Friends and Earn Commission"
         intro="The Invite page shows a personal invitation link, QR code, invitation code and commission information. Learn where to find them, how to share, and how the advertised commission is described."
         bannerSrc="/images/heroes/6e-club-invitation-hero.webp"
@@ -173,12 +174,13 @@ function InvitationPage() {
         <div className="mb-6 grid gap-4 lg:grid-cols-2 lg:items-start">
           <div className="overflow-hidden rounded-2xl border border-border bg-[#0a0612]">
             <img
-              src="/images/screens/6e-club-invitation-screen.webp"
+              src="/images/screens/6e-club-invitation-screen.png"
               alt="6E Club invitation screen with code, link and QR options"
               width={750}
               height={1500}
               className="mx-auto max-h-[28rem] w-auto object-contain"
               loading="eager"
+              decoding="async"
             />
             <p className="border-t border-border bg-card px-4 py-3 text-center text-xs text-muted-foreground">
               Invite page — code, link and QR

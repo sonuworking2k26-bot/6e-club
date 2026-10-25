@@ -143,6 +143,7 @@ function WithdrawalPage() {
           { name: "Withdrawal", path: "/6e-club-withdrawal" },
         ]}
         kicker="Guide · 2026"
+        reviewed="2026-10-25"
         title="6E Club Withdrawal Guide: How to Withdraw and Track a Request"
         intro="Before submitting a request, check the available balance, choose the correct withdrawal method, and read the requirements on the withdrawal page. A small mistake in amount or payment details can make a request harder to resolve."
         bannerSrc="/images/heroes/6e-club-withdrawal-hero.webp"

@@ -82,12 +82,9 @@ export const OG_IMAGES = {
   customerService: "https://6e-club.org/images/og/og-customer-service.jpg",
   invitation: "https://6e-club.org/images/og/og-invitation.jpg",
   vip: "https://6e-club.org/images/og/og-vip.jpg",
-  game: "https://6e-club.org/images/og/og-game.jpg",
-  apk: "https://6e-club.org/images/og/og-apk.jpg",
   faq: "https://6e-club.org/images/og/og-faq.jpg",
   responsiblePlay: "https://6e-club.org/images/og/og-responsible-play.jpg",
   about: "https://6e-club.org/images/og/og-about.jpg",
-  contact: "https://6e-club.org/images/og/og-contact.jpg",
   privacy: "https://6e-club.org/images/og/og-privacy.jpg",
   terms: "https://6e-club.org/images/og/og-terms.jpg",
 } as const;

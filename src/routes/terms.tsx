@@ -34,6 +34,7 @@ function TermsPage() {
           { name: "Terms", path: "/terms" },
         ]}
         kicker="Policy"
+        reviewed="2026-10-25"
         title="Terms of use"
         intro="Last updated: 25 October 2026. By using https://6e-club.org you agree to these terms."
       />
@@ -148,7 +149,7 @@ function TermsPage() {
             About
           </Link>{" "}
           and{" "}
-          <Link className="text-gold underline-offset-2 hover:underline" to="/contact">
+          <Link className="text-gold underline-offset-2 hover:underline" to="/" hash="contact">
             Contact
           </Link>
           .

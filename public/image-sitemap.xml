@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://6e-club.org/</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/homepage/6e-club-homepage-hero.webp</image:loc>
+      <image:title>6E Club homepage hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/brand/6e-club-header-logo.webp</image:loc>
+      <image:title>6E Club logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/homepage/6e-club-colour-prediction-banner.webp</image:loc>
+      <image:title>6E Club colour prediction banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/homepage/6e-club-aviator-game-banner.webp</image:loc>
+      <image:title>6E Club aviator-style game banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-home.jpg</image:loc>
+      <image:title>6E Club Open Graph home image</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-login-screen.webp</image:loc>
+      <image:title>6E Club login phone screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-registration-screen.webp</image:loc>
+      <image:title>6E Club registration phone screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-deposit-screen.webp</image:loc>
+      <image:title>6E Club deposit phone screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-wallet-screen.webp</image:loc>
+      <image:title>6E Club wallet phone screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-service-center-screen.webp</image:loc>
+      <image:title>6E Club customer service phone screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-invitation-screen.png</image:loc>
+      <image:title>6E Club invitation phone screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-vip-dashboard-screen.webp</image:loc>
+      <image:title>6E Club VIP dashboard phone screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/payments/6e-club-upi-payment.webp</image:loc>
+      <image:title>6E Club UPI payment method</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/payments/6e-club-bank-card-payment.webp</image:loc>
+      <image:title>6E Club bank card payment method</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/payments/6e-club-usdt-payment.webp</image:loc>
+      <image:title>6E Club USDT payment method</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/6e-club-login</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/heroes/6e-club-login-hero.webp</image:loc>
+      <image:title>6E Club login guide hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-login-screen.webp</image:loc>
+      <image:title>6E Club login screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/guides/6e-club-login-step-5.webp</image:loc>
+      <image:title>6E Club login step illustration</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-login.jpg</image:loc>
+      <image:title>6E Club login Open Graph image</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/6e-club-register</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/heroes/6e-club-register-hero.webp</image:loc>
+      <image:title>6E Club register guide hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-registration-screen.webp</image:loc>
+      <image:title>6E Club registration screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/guides/6e-club-register-step-1.webp</image:loc>
+      <image:title>6E Club register step 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/guides/6e-club-register-step-2.webp</image:loc>
+      <image:title>6E Club register step 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/guides/6e-club-register-step-3-verify.webp</image:loc>
+      <image:title>6E Club register verification step</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/guides/6e-club-register-step-4-complete.webp</image:loc>
+      <image:title>6E Club register complete step</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-register.jpg</image:loc>
+      <image:title>6E Club register Open Graph image</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/6e-club-deposit</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/heroes/6e-club-deposit-hero.webp</image:loc>
+      <image:title>6E Club deposit guide hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-deposit-screen.webp</image:loc>
+      <image:title>6E Club deposit screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-how-to-deposit-screen.webp</image:loc>
+      <image:title>6E Club how to deposit screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-deposit.jpg</image:loc>
+      <image:title>6E Club deposit Open Graph image</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/6e-club-withdrawal</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/heroes/6e-club-withdrawal-hero.webp</image:loc>
+      <image:title>6E Club withdrawal guide hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-wallet-screen.webp</image:loc>
+      <image:title>6E Club wallet / withdrawal screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-withdrawal.jpg</image:loc>
+      <image:title>6E Club withdrawal Open Graph image</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/6e-club-customer-service</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/heroes/6e-club-service-center-hero.webp</image:loc>
+      <image:title>6E Club Self Service Center hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-service-center-screen.webp</image:loc>
+      <image:title>6E Club customer service screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-customer-service.jpg</image:loc>
+      <image:title>6E Club customer service Open Graph image</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/6e-club-invitation</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/heroes/6e-club-invitation-hero.webp</image:loc>
+      <image:title>6E Club invitation guide hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-invitation-screen.png</image:loc>
+      <image:title>6E Club invitation screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-account-screen.webp</image:loc>
+      <image:title>6E Club Agency / invitation commission screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-deposit-invitation-screen.webp</image:loc>
+      <image:title>6E Club invite share screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-invitation.jpg</image:loc>
+      <image:title>6E Club invitation Open Graph image</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/6e-club-vip</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/heroes/6e-club-vip-hero.webp</image:loc>
+      <image:title>6E Club VIP guide hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/screens/6e-club-vip-dashboard-screen.webp</image:loc>
+      <image:title>6E Club VIP dashboard screen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-vip.jpg</image:loc>
+      <image:title>6E Club VIP Open Graph image</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/faq</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-faq.jpg</image:loc>
+      <image:title>6E Club FAQ Open Graph image</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/responsible-play</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-responsible-play.jpg</image:loc>
+      <image:title>6E Club responsible play Open Graph image</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/about</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-about.jpg</image:loc>
+      <image:title>6E Club about Open Graph image</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/privacy-policy</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-privacy.jpg</image:loc>
+      <image:title>6E Club privacy policy Open Graph image</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://6e-club.org/terms</loc>
+    <image:image>
+      <image:loc>https://6e-club.org/images/og/og-terms.jpg</image:loc>
+      <image:title>6E Club terms Open Graph image</image:title>
+    </image:image>
+  </url>
+
+</urlset>

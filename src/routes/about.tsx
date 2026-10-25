@@ -34,6 +34,7 @@ function AboutPage() {
           { name: "About", path: "/about" },
         ]}
         kicker="Publisher"
+        reviewed="2026-10-25"
         title="About this 6E Club guide hub"
         intro="We publish original guides so people searching for 6E Club login, register, deposit, withdrawal, game and APK topics get clear, cautious answers — without fake forms or hosted installers."
         bannerSrc="/images/homepage/6e-club-casino-royale-banner.webp"
@@ -138,19 +139,21 @@ function AboutPage() {
               desc: "Limits, myths and helplines.",
             },
             {
-              to: "/contact" as const,
-              label: "Contact",
-              desc: "Editorial inbox and fraud reporting.",
-            },
-            {
               to: "/faq" as const,
               label: "FAQ",
               desc: "Short answers to common questions.",
             },
+            {
+              to: "/" as const,
+              hash: "contact",
+              label: "Contact",
+              desc: "Editorial inbox and fraud reporting on the homepage.",
+            },
           ].map((item) => (
-            <li key={item.to}>
+            <li key={item.to + (item.hash ?? "")}>
               <Link
                 to={item.to}
+                hash={"hash" in item ? item.hash : undefined}
                 className="block h-full rounded-2xl border border-border bg-card p-5 transition-colors hover:border-gold/40"
               >
                 <p className="font-display font-bold">{item.label}</p>

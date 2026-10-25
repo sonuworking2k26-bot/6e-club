@@ -92,6 +92,7 @@ function VipPage() {
           { name: "VIP", path: "/6e-club-vip" },
         ]}
         kicker="Guide · 2026"
+        reviewed="2026-10-25"
         title="6E Club VIP Dashboard: VIP Levels, EXP, Rewards and Rebate Rate"
         intro="The VIP dashboard brings your membership level, EXP, progress towards the next level, and listed VIP benefits together. Learn what each section means before claiming a reward."
         bannerSrc="/images/heroes/6e-club-vip-hero.webp"

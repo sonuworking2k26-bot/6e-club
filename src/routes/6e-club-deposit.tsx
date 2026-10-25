@@ -133,6 +133,7 @@ function DepositPage() {
           { name: "Deposit", path: "/6e-club-deposit" },
         ]}
         kicker="Guide · 2026"
+        reviewed="2026-10-25"
         title="6E Club Deposit Guide: How to Add Money"
         intro="Making a deposit is straightforward when the payment method, amount and order details all match. Check those details before sending money — a mismatch can make the transaction harder to resolve."
         bannerSrc="/images/heroes/6e-club-deposit-hero.webp"

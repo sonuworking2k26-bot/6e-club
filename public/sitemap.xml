@@ -58,19 +58,7 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- Supporting guides -->
-  <url>
-    <loc>https://6e-club.org/6e-club-apk</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://6e-club.org/6e-club-game</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <!-- Supporting -->
   <url>
     <loc>https://6e-club.org/responsible-play</loc>
     <lastmod>2026-10-25</lastmod>
@@ -81,12 +69,6 @@
   <!-- Trust / legal -->
   <url>
     <loc>https://6e-club.org/about</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://6e-club.org/contact</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

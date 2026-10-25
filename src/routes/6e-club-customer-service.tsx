@@ -102,6 +102,7 @@ function CustomerServicePage() {
           { name: "Customer Service", path: "/6e-club-customer-service" },
         ]}
         kicker="Guide · 2026"
+        reviewed="2026-10-25"
         title="6E Club Customer Service: Self Service Center Guide"
         intro="Need help with a deposit, withdrawal, login problem, or another account issue? The Self Service Center brings several help topics together so you can match instructions to your problem before trying random fixes."
         bannerSrc="/images/heroes/6e-club-service-center-hero.webp"

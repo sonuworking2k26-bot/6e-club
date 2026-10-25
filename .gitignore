@@ -30,3 +30,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local-only test route (do not publish)
+src/routes/flight-test.tsx
+

@@ -156,6 +156,7 @@ function LoginPage() {
           { name: "Login", path: "/6e-club-login" },
         ]}
         kicker="Guide · 2026"
+        reviewed="2026-10-25"
         title="6E Club Login: Sign In on Mobile or Browser"
         intro="Trying to get back into your account? This guide explains how to approach sign-in, what to check when the login page does not work, and how to handle common account-access problems — on a phone or computer."
         bannerSrc="/images/heroes/6e-club-login-hero.webp"
@@ -303,11 +304,8 @@ function LoginPage() {
           </InfoCard>
           <InfoCard title="Using an application">
             Verify the app source before installing. Check the publisher and permissions. Do
-            not assume an app is required for login unless the platform confirms it. See the{" "}
-            <Link className="text-gold underline-offset-2 hover:underline" to="/6e-club-apk">
-              APK guide
-            </Link>
-            .
+            not assume an app is required for login unless the platform confirms it. Prefer the
+            browser and a home-screen shortcut over an unverified APK.
           </InfoCard>
         </div>
       </Section>
@@ -437,19 +435,14 @@ function LoginPage() {
               desc: "For people who have not created an account yet.",
             },
             {
-              to: "/6e-club-apk" as const,
-              label: "6E Club APK Guide",
-              desc: "Checking application sources and download safety.",
-            },
-            {
-              to: "/6e-club-game" as const,
-              label: "6E Club Games Guide",
-              desc: "Overview of rooms, colours and Big/Small.",
-            },
-            {
               to: "/6e-club-customer-service" as const,
               label: "Customer Service Guide",
               desc: "Self Service Center for deposits, withdrawals and password help.",
+            },
+            {
+              to: "/faq" as const,
+              label: "FAQ",
+              desc: "Short answers on login, register and account issues.",
             },
             {
               to: "/responsible-play" as const,

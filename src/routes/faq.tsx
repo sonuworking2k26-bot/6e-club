@@ -446,6 +446,7 @@ function FaqPage() {
           { name: "FAQ", path: "/faq" },
         ]}
         kicker="FAQ · 2026"
+        reviewed="2026-10-25"
         title="6E Club FAQ: Login, Deposit, Withdrawal and Account Help"
         intro="Looking for answers about 6E Club login, registration, deposits or withdrawals? This FAQ brings together common account and payment questions, with links to more detailed guides when you need step-by-step help."
       />
