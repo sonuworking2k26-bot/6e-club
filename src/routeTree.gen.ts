@@ -19,8 +19,11 @@ import { Route as R6eClubVipRouteImport } from './routes/6e-club-vip'
 import { Route as R6eClubWithdrawalRouteImport } from './routes/6e-club-withdrawal'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as FaqRouteImport } from './routes/faq'
+import { Route as FlightTestRouteImport } from './routes/flight-test'
+import { Route as ImageSitemapDotxmlRouteImport } from './routes/image-sitemap[.]xml'
 import { Route as PrivacyPolicyRouteImport } from './routes/privacy-policy'
 import { Route as ResponsiblePlayRouteImport } from './routes/responsible-play'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TermsRouteImport } from './routes/terms'
 
 const IndexRoute = IndexRouteImport.update({
@@ -73,6 +76,16 @@ const FaqRoute = FaqRouteImport.update({
   path: '/faq',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FlightTestRoute = FlightTestRouteImport.update({
+  id: '/flight-test',
+  path: '/flight-test',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ImageSitemapDotxmlRoute = ImageSitemapDotxmlRouteImport.update({
+  id: '/image-sitemap.xml',
+  path: '/image-sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PrivacyPolicyRoute = PrivacyPolicyRouteImport.update({
   id: '/privacy-policy',
   path: '/privacy-policy',
@@ -81,6 +94,11 @@ const PrivacyPolicyRoute = PrivacyPolicyRouteImport.update({
 const ResponsiblePlayRoute = ResponsiblePlayRouteImport.update({
   id: '/responsible-play',
   path: '/responsible-play',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TermsRoute = TermsRouteImport.update({
@@ -100,8 +118,11 @@ export interface FileRoutesByFullPath {
   '/6e-club-withdrawal': typeof R6eClubWithdrawalRoute
   '/about': typeof AboutRoute
   '/faq': typeof FaqRoute
+  '/flight-test': typeof FlightTestRoute
+  '/image-sitemap.xml': typeof ImageSitemapDotxmlRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/responsible-play': typeof ResponsiblePlayRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
 }
 export interface FileRoutesByTo {
@@ -115,8 +136,11 @@ export interface FileRoutesByTo {
   '/6e-club-withdrawal': typeof R6eClubWithdrawalRoute
   '/about': typeof AboutRoute
   '/faq': typeof FaqRoute
+  '/flight-test': typeof FlightTestRoute
+  '/image-sitemap.xml': typeof ImageSitemapDotxmlRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/responsible-play': typeof ResponsiblePlayRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
 }
 export interface FileRoutesById {
@@ -131,8 +155,11 @@ export interface FileRoutesById {
   '/6e-club-withdrawal': typeof R6eClubWithdrawalRoute
   '/about': typeof AboutRoute
   '/faq': typeof FaqRoute
+  '/flight-test': typeof FlightTestRoute
+  '/image-sitemap.xml': typeof ImageSitemapDotxmlRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/responsible-play': typeof ResponsiblePlayRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
 }
 export interface FileRouteTypes {
@@ -148,8 +175,11 @@ export interface FileRouteTypes {
     | '/6e-club-withdrawal'
     | '/about'
     | '/faq'
+    | '/flight-test'
+    | '/image-sitemap.xml'
     | '/privacy-policy'
     | '/responsible-play'
+    | '/sitemap.xml'
     | '/terms'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -163,8 +193,11 @@ export interface FileRouteTypes {
     | '/6e-club-withdrawal'
     | '/about'
     | '/faq'
+    | '/flight-test'
+    | '/image-sitemap.xml'
     | '/privacy-policy'
     | '/responsible-play'
+    | '/sitemap.xml'
     | '/terms'
   id:
     | '__root__'
@@ -178,8 +211,11 @@ export interface FileRouteTypes {
     | '/6e-club-withdrawal'
     | '/about'
     | '/faq'
+    | '/flight-test'
+    | '/image-sitemap.xml'
     | '/privacy-policy'
     | '/responsible-play'
+    | '/sitemap.xml'
     | '/terms'
   fileRoutesById: FileRoutesById
 }
@@ -194,8 +230,11 @@ export interface RootRouteChildren {
   R6eClubWithdrawalRoute: typeof R6eClubWithdrawalRoute
   AboutRoute: typeof AboutRoute
   FaqRoute: typeof FaqRoute
+  FlightTestRoute: typeof FlightTestRoute
+  ImageSitemapDotxmlRoute: typeof ImageSitemapDotxmlRoute
   PrivacyPolicyRoute: typeof PrivacyPolicyRoute
   ResponsiblePlayRoute: typeof ResponsiblePlayRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
 }
 
@@ -271,6 +310,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FaqRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/flight-test': {
+      id: '/flight-test'
+      path: '/flight-test'
+      fullPath: '/flight-test'
+      preLoaderRoute: typeof FlightTestRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/image-sitemap.xml': {
+      id: '/image-sitemap.xml'
+      path: '/image-sitemap.xml'
+      fullPath: '/image-sitemap.xml'
+      preLoaderRoute: typeof ImageSitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/privacy-policy': {
       id: '/privacy-policy'
       path: '/privacy-policy'
@@ -283,6 +336,13 @@ declare module '@tanstack/react-router' {
       path: '/responsible-play'
       fullPath: '/responsible-play'
       preLoaderRoute: typeof ResponsiblePlayRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/terms': {
@@ -306,8 +366,11 @@ const rootRouteChildren: RootRouteChildren = {
   R6eClubWithdrawalRoute: R6eClubWithdrawalRoute,
   AboutRoute: AboutRoute,
   FaqRoute: FaqRoute,
+  FlightTestRoute: FlightTestRoute,
+  ImageSitemapDotxmlRoute: ImageSitemapDotxmlRoute,
   PrivacyPolicyRoute: PrivacyPolicyRoute,
   ResponsiblePlayRoute: ResponsiblePlayRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,
 }
 export const routeTree = rootRouteImport
