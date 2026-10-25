@@ -1,0 +1,10 @@
+aviator-style-plane.png
+  Source: OpenGameArt — “Red Biplane” by Bert-o-Naught
+  URL: https://opengameart.org/content/red-biplane
+  License: CC0 (public domain dedication)
+  Note: Used for cinematic flight feel only. Not affiliated with Spribe Aviator or any crash-game brand.
+
+crash-plane.png / planes-sheet.png
+  Source: OpenGameArt — “Planegame spritesheet” by Reisi007
+  URL: https://opengameart.org/content/planegame-spritesheet
+  License: CC0
