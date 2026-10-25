@@ -449,9 +449,6 @@ function DepositPage() {
             </li>
           ))}
         </ul>
-        <p className="mt-4 text-xs text-muted-foreground">
-          An Account overview guide will be linked here when that page is published.
-        </p>
       </Section>
 
       <Section id="faqs" title="FAQs">

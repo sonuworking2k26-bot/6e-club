@@ -52,7 +52,7 @@ const STEPS = [
 const FAQS = [
   {
     q: "How do I get my 6E Club invitation code?",
-    a: "Log in to your account and open the Invite section. Your invitation code, invitation link, and QR code are displayed there when the feature is available.",
+    a: "Log in and open Invite or the Promotion / Agency area. Your invitation code, invitation link, and QR code are displayed there when the feature is available.",
   },
   {
     q: "How can I share my 6E Club referral link?",
@@ -168,7 +168,7 @@ function InvitationPage() {
       <Section
         id="find"
         title="Where to Find Your 6E Club Invitation Code"
-        intro="Log in, then open Invite from the account or platform menus. The page shows the details used for sharing."
+        intro="Log in, then open Invite or the Promotion / Agency area from the platform menus. The page shows the details used for sharing."
       >
         <div className="mb-6 grid gap-4 lg:grid-cols-2 lg:items-start">
           <div className="overflow-hidden rounded-2xl border border-border bg-[#0a0612]">
@@ -180,6 +180,9 @@ function InvitationPage() {
               className="mx-auto max-h-[28rem] w-auto object-contain"
               loading="eager"
             />
+            <p className="border-t border-border bg-card px-4 py-3 text-center text-xs text-muted-foreground">
+              Invite page — code, link and QR
+            </p>
           </div>
           <div className="space-y-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
             <ul className="list-disc space-y-2 pl-5">
@@ -241,13 +244,27 @@ function InvitationPage() {
       <Section
         id="commission"
         title="6E Club Referral Commission Explained"
-        intro="The Invite page may advertise commission of up to 85% and describe it as permanent and added daily. Treat these as promotional statements, not guarantees."
+        intro="The Invite / Agency area may show yesterday’s commission, team deposits, and an invitation link. Treat promotional rates as claims to verify — not guaranteed income."
       >
+        <div className="mb-8 overflow-hidden rounded-2xl border border-border bg-[#0a0612]">
+          <img
+            src="/images/screens/6e-club-account-screen.webp"
+            alt="6E Club Agency screen with yesterday’s commission, invitation link and invitation code"
+            width={750}
+            height={1500}
+            className="mx-auto max-h-[32rem] w-auto object-contain"
+            loading="lazy"
+          />
+          <p className="border-t border-border bg-card px-4 py-3 text-center text-xs text-muted-foreground">
+            Agency / Promotion — commission totals, INVITATION LINK, and Copy invitation code
+          </p>
+        </div>
         <div className="space-y-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
           <p>
-            Actual commission may depend on platform rules, qualifying activity, account
-            conditions and other terms. Do not calculate expected earnings from the advertised
-            maximum rate alone.
+            This screen can show figures such as yesterday’s total commission, direct and team
+            subordinate counts, deposits, and expected commission. Actual commission may depend
+            on platform rules, qualifying activity, account conditions and other terms. Do not
+            calculate expected earnings from an advertised maximum rate or a sample balance alone.
           </p>
         </div>
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
