@@ -19,7 +19,6 @@ import { Route as R6eClubVipRouteImport } from './routes/6e-club-vip'
 import { Route as R6eClubWithdrawalRouteImport } from './routes/6e-club-withdrawal'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as FaqRouteImport } from './routes/faq'
-import { Route as FlightTestRouteImport } from './routes/flight-test'
 import { Route as PrivacyPolicyRouteImport } from './routes/privacy-policy'
 import { Route as ResponsiblePlayRouteImport } from './routes/responsible-play'
 import { Route as TermsRouteImport } from './routes/terms'
@@ -74,11 +73,6 @@ const FaqRoute = FaqRouteImport.update({
   path: '/faq',
   getParentRoute: () => rootRouteImport,
 } as any)
-const FlightTestRoute = FlightTestRouteImport.update({
-  id: '/flight-test',
-  path: '/flight-test',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const PrivacyPolicyRoute = PrivacyPolicyRouteImport.update({
   id: '/privacy-policy',
   path: '/privacy-policy',
@@ -106,7 +100,6 @@ export interface FileRoutesByFullPath {
   '/6e-club-withdrawal': typeof R6eClubWithdrawalRoute
   '/about': typeof AboutRoute
   '/faq': typeof FaqRoute
-  '/flight-test': typeof FlightTestRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/responsible-play': typeof ResponsiblePlayRoute
   '/terms': typeof TermsRoute
@@ -122,7 +115,6 @@ export interface FileRoutesByTo {
   '/6e-club-withdrawal': typeof R6eClubWithdrawalRoute
   '/about': typeof AboutRoute
   '/faq': typeof FaqRoute
-  '/flight-test': typeof FlightTestRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/responsible-play': typeof ResponsiblePlayRoute
   '/terms': typeof TermsRoute
@@ -139,7 +131,6 @@ export interface FileRoutesById {
   '/6e-club-withdrawal': typeof R6eClubWithdrawalRoute
   '/about': typeof AboutRoute
   '/faq': typeof FaqRoute
-  '/flight-test': typeof FlightTestRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/responsible-play': typeof ResponsiblePlayRoute
   '/terms': typeof TermsRoute
@@ -157,7 +148,6 @@ export interface FileRouteTypes {
     | '/6e-club-withdrawal'
     | '/about'
     | '/faq'
-    | '/flight-test'
     | '/privacy-policy'
     | '/responsible-play'
     | '/terms'
@@ -173,7 +163,6 @@ export interface FileRouteTypes {
     | '/6e-club-withdrawal'
     | '/about'
     | '/faq'
-    | '/flight-test'
     | '/privacy-policy'
     | '/responsible-play'
     | '/terms'
@@ -189,7 +178,6 @@ export interface FileRouteTypes {
     | '/6e-club-withdrawal'
     | '/about'
     | '/faq'
-    | '/flight-test'
     | '/privacy-policy'
     | '/responsible-play'
     | '/terms'
@@ -206,7 +194,6 @@ export interface RootRouteChildren {
   R6eClubWithdrawalRoute: typeof R6eClubWithdrawalRoute
   AboutRoute: typeof AboutRoute
   FaqRoute: typeof FaqRoute
-  FlightTestRoute: typeof FlightTestRoute
   PrivacyPolicyRoute: typeof PrivacyPolicyRoute
   ResponsiblePlayRoute: typeof ResponsiblePlayRoute
   TermsRoute: typeof TermsRoute
@@ -284,13 +271,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FaqRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/flight-test': {
-      id: '/flight-test'
-      path: '/flight-test'
-      fullPath: '/flight-test'
-      preLoaderRoute: typeof FlightTestRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/privacy-policy': {
       id: '/privacy-policy'
       path: '/privacy-policy'
@@ -326,7 +306,6 @@ const rootRouteChildren: RootRouteChildren = {
   R6eClubWithdrawalRoute: R6eClubWithdrawalRoute,
   AboutRoute: AboutRoute,
   FaqRoute: FaqRoute,
-  FlightTestRoute: FlightTestRoute,
   PrivacyPolicyRoute: PrivacyPolicyRoute,
   ResponsiblePlayRoute: ResponsiblePlayRoute,
   TermsRoute: TermsRoute,
