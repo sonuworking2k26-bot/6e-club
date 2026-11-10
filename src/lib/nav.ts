@@ -8,7 +8,7 @@
  * ═══════════════════════════════════════════════════════════
  */
 export const EXTERNAL_PLAY_URL =
-  "https://www.6clubi.com/#/register?invitationCode=466122943641";
+  "https://6eclubs9a.com/register?inviteCode=PCYFQLN&from=web";
 
 /** Aliases — same URL; prefer EXTERNAL_PLAY_URL in new code. */
 export const EXTERNAL_LOGIN_URL = EXTERNAL_PLAY_URL;
